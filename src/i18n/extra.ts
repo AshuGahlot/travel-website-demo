@@ -1,0 +1,56 @@
+export const extra = {
+  en: {
+    nav: { home: "Home", explore: "Explore", plan: "Plan", deals: "Deals", bookings: "Trips", saved: "Saved", profile: "Profile" },
+    featured: { eyebrow: "Featured", title: "Trending this season", seeAll: "See all trips" },
+    explore: { title: "Explore the world", subtitle: "Filter, sort and find the journey that fits you.", search: "Search destinations or trips..." },
+    sort: { button: "Sort", filters: "Filters", sheetTitle: "Sort trips by", filterTitle: "Filter trips", duration: "Trip duration", show: (n: number) => `Show ${n} trip${n === 1 ? "" : "s"}`, reset: "Reset" },
+    deals: {
+      title: "Deals & offers", subtitle: "Limited-time prices on our most-loved trips.",
+      flash: "Flash sale", flashTitle: "Up to 35% off summer escapes", endsIn: "Ends in",
+      h: "h", m: "m", s: "s", off: "OFF", was: "was", codesTitle: "Promo codes",
+      copy: "Copy", copied: "Copied!", code1: "Your first trip with us", code2: "Booking for 4+ travelers", code3: "Early-bird, 60+ days ahead",
+      hot: "Today's hottest deals",
+    },
+    bookings: {
+      title: "My trips", subtitle: "Your upcoming adventures and memories.",
+      upcoming: "Upcoming", past: "Past", confirmed: "Confirmed", completed: "Completed",
+      ref: "Booking ref", depart: "Departure", travelers: "Travelers", ticket: "View e-ticket", rate: "Leave a review",
+      daysLeft: (n: number) => `${n} days to go`, guests: (n: number) => `${n} guests`,
+    },
+    plan: {
+      title: "Plan your trip", subtitle: "Tell us your style — we'll sketch the perfect itinerary.",
+      where: "Where do you want to go?", days: "How many days?", travelers: "Travelers", interests: "What do you love?",
+      i: ["Food", "Nature", "History", "Nightlife", "Shopping", "Relaxing", "Photography"],
+      generate: "Generate itinerary", result: "Your itinerary", day: "Day", estimate: "Estimated total",
+      activities: ["Arrival & sunset welcome dinner", "Guided old-town walking tour", "Local market & cooking class", "Scenic day trip with picnic", "Hidden viewpoints photo tour", "Spa morning & free afternoon", "Farewell rooftop dinner", "Leisurely brunch & departure"],
+    },
+    profile: { trips: "Trips", countries: "Countries", reviews: "Reviews", member: "Explorer member" },
+  },
+  ja: {
+    nav: { home: "ホーム", explore: "探索", plan: "計画", deals: "セール", bookings: "予約", saved: "お気に入り", profile: "プロフィール" },
+    featured: { eyebrow: "注目", title: "今シーズンの人気の旅", seeAll: "すべての旅を見る" },
+    explore: { title: "世界を探索しよう", subtitle: "絞り込み・並び替えで、ぴったりの旅を見つけよう。", search: "行き先や旅を検索..." },
+    sort: { button: "並び替え", filters: "絞り込み", sheetTitle: "並び替え", filterTitle: "旅を絞り込む", duration: "旅の期間", show: (n: number) => `${n}件の旅を表示`, reset: "リセット" },
+    deals: {
+      title: "セール＆特典", subtitle: "人気の旅が期間限定価格に。",
+      flash: "タイムセール", flashTitle: "夏の旅が最大35%オフ", endsIn: "終了まで",
+      h: "時間", m: "分", s: "秒", off: "オフ", was: "通常", codesTitle: "プロモコード",
+      copy: "コピー", copied: "コピー済み！", code1: "初めてのご予約", code2: "4名様以上のご予約", code3: "60日前の早割",
+      hot: "本日の目玉セール",
+    },
+    bookings: {
+      title: "マイトリップ", subtitle: "これからの冒険と、旅の思い出。",
+      upcoming: "予定", past: "過去", confirmed: "確定済み", completed: "完了",
+      ref: "予約番号", depart: "出発日", travelers: "人数", ticket: "電子チケット", rate: "レビューを書く",
+      daysLeft: (n: number) => `あと${n}日`, guests: (n: number) => `${n}名`,
+    },
+    plan: {
+      title: "旅を計画する", subtitle: "あなたのスタイルを教えてください。最適な旅程を作成します。",
+      where: "どこへ行きたいですか？", days: "何日間？", travelers: "人数", interests: "好きなことは？",
+      i: ["グルメ", "自然", "歴史", "ナイトライフ", "ショッピング", "リラックス", "写真"],
+      generate: "旅程を作成", result: "あなたの旅程", day: "日目", estimate: "概算合計",
+      activities: ["到着＆サンセットディナー", "旧市街ガイドツアー", "市場散策＆料理教室", "絶景日帰り旅行とピクニック", "穴場ビューポイント撮影ツアー", "スパの朝＆自由な午後", "屋上でのお別れディナー", "ゆったりブランチ＆出発"],
+    },
+    profile: { trips: "旅", countries: "国", reviews: "レビュー", member: "エクスプローラー会員" },
+  },
+};

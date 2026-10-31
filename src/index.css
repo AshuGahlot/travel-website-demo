@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", serif;
+  --font-sans: "Outfit", "Noto Sans JP", "Hiragino Sans", sans-serif;
+
+  --color-ink: #131b2e;
+  --color-ink-2: #4d5875;
+  --color-sand: #faf7f1;
+  --color-cream: #f1ebe0;
+  --color-line: #e6dfd0;
+  --color-brand: #e8562e;
+  --color-brand-2: #cf4520;
+  --color-sea: #0e7490;
+  --color-leaf: #15803d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf7f1;
+  color: #131b2e;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #e8562e;
+  color: #fff;
+}
+
+/* Hide scrollbars for horizontal carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom range slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: #e6dfd0;
+  outline: none;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #e8562e;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(19, 27, 46, 0.3);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+input[type="range"]::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #e8562e;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(19, 27, 46, 0.3);
+  cursor: pointer;
+}
+
+/* Subtle dotted texture for light sections */
+.dot-grid {
+  background-image: radial-gradient(#131b2e 0.75px, transparent 0.75px);
+  background-size: 22px 22px;
+}

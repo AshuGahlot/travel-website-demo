@@ -1,0 +1,483 @@
+export const homeShowcase = {
+  en: {
+    marquee: {
+      featuredIn: "Recognized by",
+      items: [
+        "Private Airport Pickup & Drop",
+        "Handpicked Ryokans & Villas",
+        "Chef-Selected Local Meals",
+        "48-Hour Free Cancellation",
+        "24/7 Bilingual Concierge (EN / 日本語)",
+        "Zero Hidden Booking Fees",
+      ],
+    },
+    spotlight: {
+      eyebrow: "Signature All-Inclusive Editions",
+      title: "One booking. Stay, chauffeur & dining — orchestrated.",
+      subtitle:
+        "Our flagship journeys bundle iconic 5-star stays, door-to-door airport transfers, and unforgettable local meals into one effortless experience.",
+      includedTitle: "Everything wrapped in",
+      pillStay: "5★ Boutique Stay",
+      pillTransfer: "Airport Pickup & Drop",
+      pillMeals: "Daily Breakfast & Dinners",
+      fromLabel: "All-inclusive from",
+      perPerson: "per guest",
+      bookStayBtn: "Book Stay & Transfers",
+      customizeBtn: "Build Full Itinerary",
+      routeLabel: "Private Transfer Route",
+      editions: [
+        {
+          id: "kyoto",
+          hotelId: 101,
+          code: "01",
+          tab: "Kyoto Ryokan",
+          place: "Kyoto, Japan",
+          route: "KIX ⇄ Gion Ryokan",
+          climate: "18°C · Crisp Lantern Evenings",
+          mainImage:
+            "https://images.pexels.com/photos/29537651/pexels-photo-29537651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/37067835/pexels-photo-37067835.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "Ryokan Sakura An · Private Garden Onsen",
+          headline: "Gion Lanterns, Zen Gardens & Private Kaiseki",
+          story:
+            "Step off your flight to a waiting chauffeur, check into a cedar-scented tatami suite in Gion, and savor multi-course seasonal Kaiseki dinners after private dawn visits to vermilion shrines.",
+          price: 1690,
+          nights: "5 Days · 4 Nights",
+          moments: [
+            { time: "Day 1 · 11:30", title: "VIP Meet & Greet at Kansai Airport → Chauffeur Sedan to Gion" },
+            { time: "Day 2 · 19:00", title: "10-Course Seasonal Kaiseki Dinner & Private Hinoki Bath" },
+            { time: "Day 5 · 14:30", title: "Late Tatami Check-out & Direct Drop-off at Departure Terminal" },
+          ],
+        },
+        {
+          id: "santorini",
+          hotelId: 103,
+          code: "02",
+          tab: "Santorini Caldera",
+          place: "Oia, Greece",
+          route: "JTR ⇄ Oia Cliffside",
+          climate: "25°C · Golden Aegean Breeze",
+          mainImage:
+            "https://images.pexels.com/photos/27025498/pexels-photo-27025498.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/11363037/pexels-photo-11363037.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "Caldera Blue Suites · Private Plunge Pool",
+          headline: "Whitewashed Cliffs, Catamaran Sails & Sunset Tables",
+          story:
+            "Wake above the cobalt caldera with Champagne breakfast on your terrace, sail hidden volcanic coves by afternoon, and dine cliffside as Oia glows amber.",
+          price: 2240,
+          nights: "6 Days · 5 Nights",
+          moments: [
+            { time: "Day 1 · 13:00", title: "Private Airport Pickup & Cliffside Bellhop Porter Service" },
+            { time: "Day 3 · 16:30", title: "Catamaran Sunset Cruise with Grilled Aegean Seafood Feast" },
+            { time: "Day 6 · 15:00", title: "Terrace Brunch & Private Sedan Drop-off to Santorini Airport" },
+          ],
+        },
+        {
+          id: "iceland",
+          hotelId: 107,
+          code: "03",
+          tab: "Iceland Aurora",
+          place: "South Coast, Iceland",
+          route: "KEF ⇄ Vík Glass Lodge",
+          climate: "-1°C · High Aurora Kp-Index",
+          mainImage:
+            "https://images.pexels.com/photos/31291321/pexels-photo-31291321.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "Aurora Glass Lodge · Heated Panorama Roof",
+          headline: "Glacier Lagoons, Geothermal Lagoons & Sky-Lit Nights",
+          story:
+            "Watch emerald ribbons dance directly above your heated glass cabin after days exploring black-sand beaches, blue ice caves, and Nordic fire-cooked dinners.",
+          price: 2480,
+          nights: "6 Days · 5 Nights",
+          moments: [
+            { time: "Day 1 · 10:00", title: "4×4 Luxury Van Pickup at Keflavík via Blue Lagoon Stop" },
+            { time: "Day 4 · 20:30", title: "Nordic Tasting Dinner & Private Midnight Aurora Wake-Up Alert" },
+            { time: "Day 6 · 13:30", title: "Warm Bakery Farewell & Heated Transfer to Departure Gate" },
+          ],
+        },
+      ],
+    },
+    seasonal: {
+      eyebrow: "2025 – 2026 Travel Almanac",
+      title: "Where to go, right when it peaks",
+      subtitle: "Pick a season to preview ideal weather windows, culinary highlights, and insider perks.",
+      bestMonths: "Peak window",
+      exploreSeason: "Explore these trips",
+      culinaryEyebrow: "Taste Included",
+      culinaryTitle: "Every itinerary celebrates the table",
+      culinaryDesc:
+        "From Kyoto tea-house breakfasts to cliffside seafood dinners, our trips weave authentic meals into every single day.",
+      culinaryTag: "Breakfast, Lunch & Dinner curated",
+      passEyebrow: "Member Flash Perk",
+      passTitle: "Save 15% on your first stay + transfer bundle",
+      passDesc: "Use code TABI15 or explore today's live flash deals up to 35% off.",
+      copyCode: "Copy TABI15",
+      copied: "Copied!",
+      viewDeals: "See flash deals",
+      seasons: [
+        {
+          id: "spring",
+          label: "Spring",
+          sub: "Sakura & Blooms",
+          months: "March – May",
+          temp: "16° – 22°C",
+          spot: "Kyoto & Paris",
+          query: "Kyoto",
+          image:
+            "https://images.pexels.com/photos/20817306/pexels-photo-20817306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "Cherry Blossom Canopies & Café Terraces",
+          desc: "Stroll beneath petal-lined canals at dawn before crowds wake, with private tea ceremonies and riverside picnics.",
+          dish: "Sakura Bento & Matcha Kaiseki",
+        },
+        {
+          id: "summer",
+          label: "Summer",
+          sub: "Islands & Coast",
+          months: "June – August",
+          temp: "24° – 29°C",
+          spot: "Santorini & Bali",
+          query: "Bali",
+          image:
+            "https://images.pexels.com/photos/35130253/pexels-photo-35130253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "Turquoise Lagoons, Private Villas & Sunset Sails",
+          desc: "Long golden evenings on the Aegean and tropical mornings in Ubud infinity-pool villas with airport pickup waiting.",
+          dish: "Chargrilled Octopus & Island Satay Feast",
+        },
+        {
+          id: "autumn",
+          label: "Autumn",
+          sub: "Crimson Foliage",
+          months: "September – November",
+          temp: "14° – 20°C",
+          spot: "Kyoto & Swiss Valleys",
+          query: "Kyoto",
+          image:
+            "https://images.pexels.com/photos/33229939/pexels-photo-33229939.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "Maple-Lit Temple Hills & Harvest Vineyards",
+          desc: "Crisp mountain air, illuminated evening temple gardens, and harvest menus at half the summer crowd.",
+          dish: "Matsutake Broth & Hearth-Roasted Harvest",
+        },
+        {
+          id: "winter",
+          label: "Winter",
+          sub: "Aurora & Alps",
+          months: "December – February",
+          temp: "-4° – 6°C",
+          spot: "Iceland & Swiss Alps",
+          query: "Swiss",
+          image:
+            "https://images.pexels.com/photos/34952939/pexels-photo-34952939.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "Snow-Dusted Chalets, Scenic Trains & Northern Skies",
+          desc: "Panoramic alpine rail journeys by day, crackling fireplaces and outdoor hot springs beneath starry skies by night.",
+          dish: "Aged Gruyère Fondue & Hot Spiced Cider",
+        },
+      ],
+    },
+    journal: {
+      eyebrow: "TabiGo Field Notes",
+      title: "Stories & postcards from the road",
+      subtitle: "Insider dispatches written by our local guides and returning travelers.",
+      readStory: "Read dispatch",
+      closeStory: "Close",
+      planThis: "Explore trips here",
+      proTipLabel: "Local Guide's Secret",
+      stories: [
+        {
+          id: 1,
+          tag: "Kyoto · Slow Travel",
+          readTime: "4 min read",
+          author: "Kenji Sato · Kyoto Host",
+          query: "Kyoto",
+          image:
+            "https://images.pexels.com/photos/7107625/pexels-photo-7107625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "The 6:00 AM Rule: Experiencing Fushimi Inari in Total Silence",
+          excerpt:
+            "Why arriving two hours before the tour buses transforms Kyoto's most famous vermilion trail—plus the 120-year-old tofu breakfast spot waiting at the bottom.",
+          body: [
+            "At six in the morning, mist still clings to Mount Inari and the only sound beneath the ten thousand torii gates is birdsong echoing off cedar trunks.",
+            "Our private drivers pick you up gently from your ryokan at 5:40 AM with warm roasted green tea in the car, dropping you right at the quiet side entrance before returning you in time for a steaming yudofu breakfast.",
+          ],
+          tip: "Walk 15 minutes past the Yotsutsuji crossroads—90% of visitors turn back there, leaving the upper forest shrines completely yours.",
+        },
+        {
+          id: 2,
+          tag: "Culinary · Aegean",
+          readTime: "3 min read",
+          author: "Elena Papadakis · Oia Guide",
+          query: "Santorini",
+          image:
+            "https://images.pexels.com/photos/15198279/pexels-photo-15198279.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "Beyond the Postcard: 5 Family Tavernas Hidden Below Oia's Cliffs",
+          excerpt:
+            "Skip the tourist menus on the main marble promenade and follow stone steps down to Ammoudi Bay where fishermen grill the morning catch.",
+          body: [
+            "Santorini's volcanic soil produces cherry tomatoes and Assyrtiko grapes bursting with mineral sweetness you won't taste anywhere else in Europe.",
+            "Every TabiGo Greece itinerary reserves water-edge tables thirty minutes before golden hour—so your dinner pairs effortlessly with the caldera sunset.",
+          ],
+          tip: "Order fava topped with warm capers and caramelized onions alongside crisp volcanic white wine.",
+        },
+        {
+          id: 3,
+          tag: "Alpine · Scenic Rail",
+          readTime: "5 min read",
+          author: "Lukas Meier · Alpine Leader",
+          query: "Swiss",
+          image:
+            "https://images.pexels.com/photos/39191858/pexels-photo-39191858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "Window Seat Left or Right? Mastering Switzerland's Panorama Trains",
+          excerpt:
+            "How we time chalet transfers, luggage forwarding, and first-class dome seats so you never haul a suitcase across a platform.",
+          body: [
+            "Nothing breaks alpine serenity faster than wrestling heavy bags between mountain connections. That's why our hotel chauffeur collects your luggage at arrival and delivers it straight to your chalet room.",
+            "You step aboard with only your camera, sipping hot chocolate as turquoise lakes and 4,000-meter peaks glide past floor-to-ceiling glass.",
+          ],
+          tip: "Sit on the right-hand side heading south toward Lucerne and Interlaken for uninterrupted lake reflections.",
+        },
+      ],
+    },
+  },
+
+  ja: {
+    marquee: {
+      featuredIn: "掲載・受賞メディア",
+      items: [
+        "空港⇄ホテル専用送迎に対応",
+        "厳選された五つ星旅館＆ヴィラ",
+        "料理人こだわりの現地グルメ付き",
+        "48時間前までキャンセル無料",
+        "24時間日英バイリンガルサポート",
+        "予約手数料・隠れコストゼロ",
+      ],
+    },
+    spotlight: {
+      eyebrow: "シグネチャー・オールインクルーシブ",
+      title: "宿泊も、専用送迎も、美食も。すべてをひとつに。",
+      subtitle:
+        "憧れの五つ星宿、空港からのドアツードア送迎、そして心に残る現地の食事を一括で手配。移動の不安なく、旅の感動だけに浸れます。",
+      includedTitle: "プランに含まれるもの",
+      pillStay: "5★ 厳選ホテル・旅館",
+      pillTransfer: "空港お迎え＆お送り",
+      pillMeals: "毎日の朝食＆特製ディナー",
+      fromLabel: "オールインクルーシブ",
+      perPerson: "1名様あたり",
+      bookStayBtn: "宿と送迎を予約する",
+      customizeBtn: "フル旅程をカスタマイズ",
+      routeLabel: "専用送迎ルート",
+      editions: [
+        {
+          id: "kyoto",
+          hotelId: 101,
+          code: "01",
+          tab: "京都・老舗旅館",
+          place: "日本・京都 祇園",
+          route: "関西空港 ⇄ 祇園 旅館",
+          climate: "18°C · 提灯が灯る静かな宵",
+          mainImage:
+            "https://images.pexels.com/photos/29537651/pexels-photo-29537651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/37067835/pexels-photo-37067835.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "旅館 さくら庵 · 庭園露天風呂付き客室",
+          headline: "祇園の石畳、名庭の静寂、お部屋で味わう京懐石",
+          story:
+            "到着ロビーから専用ハイヤーで祇園の純和風スイートへ。早朝の静まり返った朱色の鳥居を巡ったあとは、旬を映す京懐石と檜湯で贅沢なひとときを。",
+          price: 1690,
+          nights: "5日間 · 4泊",
+          moments: [
+            { time: "1日目 · 11:30", title: "関西空港でお出迎え → 専用セダンで祇園の旅館へ直行" },
+            { time: "2日目 · 19:00", title: "旬の京懐石フルコースディナー＆専用檜風呂" },
+            { time: "5日目 · 14:30", title: "ゆったりレイトチェックアウト＆出発ゲートまでお送り" },
+          ],
+        },
+        {
+          id: "santorini",
+          hotelId: 103,
+          code: "02",
+          tab: "サントリーニ絶景",
+          place: "ギリシャ・イア",
+          route: "JTR空港 ⇄ イア断崖スイート",
+          climate: "25°C · 黄金色のエーゲ海の風",
+          mainImage:
+            "https://images.pexels.com/photos/27025498/pexels-photo-27025498.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/11363037/pexels-photo-11363037.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "カルデラ・ブルースイーツ · 専用プール",
+          headline: "白亜の断崖、カタマラン船と夕陽の特等席ディナー",
+          story:
+            "コバルトブルーの海を見下ろすテラスで朝食を。午後はヨットで入り江を巡り、夕暮れにはイアの絶景レストランで特別なディナーを堪能します。",
+          price: 2240,
+          nights: "6日間 · 5泊",
+          moments: [
+            { time: "1日目 · 13:00", title: "空港専用送迎＆断崖スイートまでのポーターサービス" },
+            { time: "3日目 · 16:30", title: "サンセットクルーズ＆獲れたてエーゲ海シーフードBBQ" },
+            { time: "6日目 · 15:00", title: "テラスでのブランチ後、専用車で空港へお送り" },
+          ],
+        },
+        {
+          id: "iceland",
+          hotelId: 107,
+          code: "03",
+          tab: "アイスランド星空",
+          place: "アイスランド南海岸",
+          route: "KEF空港 ⇄ ヴィーク硝子ロッジ",
+          climate: "-1°C · オーロラ高確率シーズン",
+          mainImage:
+            "https://images.pexels.com/photos/31291321/pexels-photo-31291321.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetImage:
+            "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          insetCaption: "オーロラ・グラスロッジ · 全面ガラス天井",
+          headline: "氷河ラグーンと温泉、ベッドから見上げる緑のオーロラ",
+          story:
+            "昼は黒砂の海岸と青い氷の洞窟を探検し、夜は北欧の薪火ディナーへ。暖かいガラス天井キャビンからそのままオーロラを観賞できます。",
+          price: 2480,
+          nights: "6日間 · 5泊",
+          moments: [
+            { time: "1日目 · 10:00", title: "ケプラヴィーク空港お迎え（ブルーラグーン立ち寄り付き）" },
+            { time: "4日目 · 20:30", title: "北欧コースディナー＆オーロラ出現モーニングコール" },
+            { time: "6日目 · 13:30", title: "焼きたてベーカリー朝食後、専用バンで空港へお送り" },
+          ],
+        },
+      ],
+    },
+    seasonal: {
+      eyebrow: "2025 – 2026 四季の旅ごよみ",
+      title: "一番美しい季節に、一番輝く場所へ",
+      subtitle: "季節を選んで、ベストシーズン・旬の味覚・限定特典をチェックしましょう。",
+      bestMonths: "ベスト時期",
+      exploreSeason: "この季節の旅を見る",
+      culinaryEyebrow: "旬の美食つき",
+      culinaryTitle: "すべての旅程に「忘れられない一皿」を",
+      culinaryDesc:
+        "京都の朝粥からエーゲ海の夕陽ディナーまで、朝・昼・晩の食事を旅のハイライトとして丁寧に組み込んでいます。",
+      culinaryTag: "朝食・昼食・夕食を厳選プロデュース",
+      passEyebrow: "初回限定メンバー特典",
+      passTitle: "宿泊＋空港送迎セットが15%OFF",
+      passDesc: "プロモコード「TABI15」をコピー、または最大35%OFFのタイムセールへ。",
+      copyCode: "TABI15 をコピー",
+      copied: "コピーしました！",
+      viewDeals: "セールを見る",
+      seasons: [
+        {
+          id: "spring",
+          label: "春",
+          sub: "桜と花めぐり",
+          months: "3月 〜 5月",
+          temp: "16° 〜 22°C",
+          spot: "京都・パリ",
+          query: "京都",
+          image:
+            "https://images.pexels.com/photos/20817306/pexels-photo-20817306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "朝霧に染まる桜並木と、春風のカフェテラス",
+          desc: "人混み前の早朝に歩く桜の回廊、貸切のお茶席、川辺のピクニックランチまで春色の時間を満喫。",
+          dish: "桜鯛の花見弁当＆宇治抹茶懐石",
+        },
+        {
+          id: "summer",
+          label: "夏",
+          sub: "離島とリゾート",
+          months: "6月 〜 8月",
+          temp: "24° 〜 29°C",
+          spot: "サントリーニ・バリ島",
+          query: "バリ",
+          image:
+            "https://images.pexels.com/photos/35130253/pexels-photo-35130253.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "透き通るラグーン、専用プール付きヴィラの休日",
+          desc: "空港お迎えから始まる南国ステイ。ウブドの森のインフィニティプールとエーゲ海のサンセットクルーズ。",
+          dish: "炭火焼きシーフード＆南国サテの晩餐",
+        },
+        {
+          id: "autumn",
+          label: "秋",
+          sub: "紅葉と実り",
+          months: "9月 〜 11月",
+          temp: "14° 〜 20°C",
+          spot: "京都・スイス渓谷",
+          query: "京都",
+          image:
+            "https://images.pexels.com/photos/33229939/pexels-photo-33229939.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "錦に染まる古都の庭園と、実りの秋の味覚",
+          desc: "澄んだ空気と夜間ライトアップの紅葉庭園。夏よりも落ち着いた街並みで旬の美食をゆったり味わえます。",
+          dish: "松茸の土瓶蒸しと秋の実りコース",
+        },
+        {
+          id: "winter",
+          label: "冬",
+          sub: "オーロラと雪山",
+          months: "12月 〜 2月",
+          temp: "-4° 〜 6°C",
+          spot: "アイスランド・スイスアルプス",
+          query: "スイス",
+          image:
+            "https://images.pexels.com/photos/34952939/pexels-photo-34952939.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          headline: "白銀のシャレー、絶景鉄道と夜空のオーロラ",
+          desc: "昼はパノラマ列車で雪化粧のアルプスを駆け抜け、夜は暖炉の灯りと露天スパで星空を見上げる贅沢。",
+          dish: "熟成グリュイエールのチーズフォンデュ",
+        },
+      ],
+    },
+    journal: {
+      eyebrow: "TabiGo 旅の手帖",
+      title: "現地ガイドが綴る、旅のストーリー",
+      subtitle: "ガイドブックには載らない時間帯や名店を、現地ホストがお届けします。",
+      readStory: "記事を読む",
+      closeStory: "閉じる",
+      planThis: "このエリアの旅を見る",
+      proTipLabel: "現地ガイドのひみつメモ",
+      stories: [
+        {
+          id: 1,
+          tag: "京都 · スロートラベル",
+          readTime: "読了 4分",
+          author: "佐藤 健司 · 京都ホスト",
+          query: "京都",
+          image:
+            "https://images.pexels.com/photos/7107625/pexels-photo-7107625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "朝6時の魔法：静寂に包まれた伏見稲荷を独り占めする方法",
+          excerpt:
+            "観光バスが到着する2時間前に訪れるだけで、千本鳥居は別世界に。参拝後に立ち寄りたい創業120年の湯豆腐朝食もご紹介。",
+          body: [
+            "午前6時、稲荷山にはまだ朝霧が漂い、幾重にも連なる朱色の鳥居に響くのは野鳥の声だけ。昼間の賑わいが嘘のような神聖な空気が流れます。",
+            "TabiGoの専用送迎なら朝5時40分に温かいほうじ茶をご用意して旅館へお迎え。参拝後は老舗の温かい湯豆腐朝食へスムーズにお連れします。",
+          ],
+          tip: "四ツ辻の展望所からさらに15分だけ奥へ歩いてみてください。9割の参拝客がそこで折り返すため、その先は静かな森の参道になります。",
+        },
+        {
+          id: 2,
+          tag: "美食 · エーゲ海",
+          readTime: "読了 3分",
+          author: "エレナ・パパダキス · イア現地ガイド",
+          query: "サントリーニ",
+          image:
+            "https://images.pexels.com/photos/15198279/pexels-photo-15198279.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "絵葉書のその先へ：イアの断崖下に隠れた家族経営タベルナ5選",
+          excerpt:
+            "メイン通りの観光向けメニューを離れ、石段を下りたアムディ湾の港で朝獲れ魚介の炭火焼きを味わう特別な夜。",
+          body: [
+            "火山灰の土壌が育てるサントリーニのチェリートマトと白ワイン「アシルティコ」は、驚くほど濃厚でミネラル感たっぷり。",
+            "TabiGoの旅程では日没30分前に海辺の特等席を予約済み。黄金色に染まるカルデラを眺めながら、ゆったり夕食を楽しめます。",
+          ],
+          tip: "温かいケッパーと飴色玉ねぎをのせた郷土料理「ファヴァ」を、冷えた火山ワインとぜひ合わせてみてください。",
+        },
+        {
+          id: 3,
+          tag: "アルプス · 絶景鉄道",
+          readTime: "読了 5分",
+          author: "ルーカス・マイヤー · アルプス案内人",
+          query: "スイス",
+          image:
+            "https://images.pexels.com/photos/39191858/pexels-photo-39191858.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          title: "窓側は右？左？スイスのパノラマ列車を120%楽しむ座席術",
+          excerpt:
+            "重いスーツケースは専用車でホテルへ先送り。カメラひとつで乗り込む一等パノラマ車両の楽しみ方。",
+          body: [
+            "せっかくの絶景鉄道も、乗り換えのたびに大きな荷物を運んでは台無しです。TabiGoでは空港到着時にドライバーがお荷物をシャレーのお部屋まで直接お届けします。",
+            "手ぶらでパノラマ車両に乗り込み、ホットチョコレートを片手にエメラルド色の湖と4,000m級の峰々を満喫してください。",
+          ],
+          tip: "ルツェルンからインターラーケン方面へ向かう路線では、進行方向「右側」の窓席が湖の絶景ベストポジションです。",
+        },
+      ],
+    },
+  },
+};
